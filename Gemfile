@@ -1,5 +1,14 @@
 source 'https://rubygems.org'
 
+gem 'quiet_assets'
+gem 'rspec-rails'
+gem 'guard-bundler'
+gem 'guard-rspec'
+gem 'factory_girl_rails'
+
+group :test do
+  gem 'capybara'
+end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
